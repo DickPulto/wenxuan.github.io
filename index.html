@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>文璇兄的Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="文璇兄的Blog">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="文璇兄的Blog">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="文璇兄的Blog" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -42,7 +42,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">文璇兄的Blog</a>
       </h1>
       
     </div>
@@ -93,17 +93,49 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>####Node.js介绍</p>
-<pre><code>1.Node.js是一款使用Javascript语法作为基础的服务端开发技术
+        <h4 id="Node-js介绍"><a href="#Node-js介绍" class="headerlink" title="Node.js介绍"></a>Node.js介绍</h4><pre><code>1.Node.js是一款使用Javascript语法作为基础的服务端开发技术
 2.Node.js是一个javascript的运行环境,不是JS库也不是一种框架,
 简单来说,node.JS可以解析和执行JS代码,使得曾今只能在浏览器执行的JS代码可以完全脱离浏览器
 </code></pre>
-<p>##浏览器中的JS:<br>    1.ECMAscript<br>    2.BOM<br>    3.DOM</p>
-<p>##Node.js中的JS:<br>    1.ECMAscript<br>    2.没有BOM,DOM,<br>        在Node.js的执行环境中为JS提供了一些服务端级别的操作API列如:<br>        文件的读写,网络服务的构建,网络通信,http服务器…<br>        也就是说在node.js的Javascript运行环境中,可以完全使用ECMAscript标准中的JS语法<br>        但是无法像浏览器中的Javascript一样直接去操作DOM文档,操作我们的浏览器,<br>        而是完全剑指服务器端编程的一门技术,<br>        在学习Node.js中主要就是需要学会使用Node.JS提供的操作服务器的API</p>
-<p>##Node.js的特点:<br>    1.event-driven 事件驱动<br>    2.non-blocking I&#x2F;O model 非阻塞IO模型 (异步)<br>    3.lightweight and efficient 轻量与高效</p>
-<p>###npm介绍:<br>    1.npm是世界上最大的使用Node.js开发开源生态系统,<br>        在以往开发人员使用Javascript相关的第三方插件或者包,<br>        需要手动下载插件代码,引入到我们的JS文件中,<br>        而npm平台则集成了绝大多数的JavaScript相关的插件包,<br>        这样做的目的是为了使开发人员更加方便快捷的下载和使用,<br>        开发人员只需要一句命令就可以使用指定的插件<br>        如:npm install jquery<br>        [使用jqueryJS插件库]</p>
-<p>##node.js可以用于开发<br>        web服务器后台<br>        命令行工具:<br>            npm<br>            git<br>            hexo<br>        对于前端开发工程师来讲,接触Node更多的是使用命令行工具</p>
-<p>##简单的命令行操作:<br>        .cd 返回上级<br>        .dir 列出目录<br>        .ls 列出目录<br>        .mkdir 创建目录<br>        .rm 删除目录</p>
+<h2 id="浏览器中的JS"><a href="#浏览器中的JS" class="headerlink" title="浏览器中的JS:"></a>浏览器中的JS:</h2><pre><code>1.ECMAscript
+2.BOM
+3.DOM
+</code></pre>
+<h2 id="Node-js中的JS"><a href="#Node-js中的JS" class="headerlink" title="Node.js中的JS:"></a>Node.js中的JS:</h2><pre><code>1.ECMAscript
+2.没有BOM,DOM,
+    在Node.js的执行环境中为JS提供了一些服务端级别的操作API列如:
+    文件的读写,网络服务的构建,网络通信,http服务器...
+    也就是说在node.js的Javascript运行环境中,可以完全使用ECMAscript标准中的JS语法
+    但是无法像浏览器中的Javascript一样直接去操作DOM文档,操作我们的浏览器,
+    而是完全剑指服务器端编程的一门技术,
+    在学习Node.js中主要就是需要学会使用Node.JS提供的操作服务器的API
+</code></pre>
+<h2 id="Node-js的特点"><a href="#Node-js的特点" class="headerlink" title="Node.js的特点:"></a>Node.js的特点:</h2><pre><code>1.event-driven 事件驱动
+2.non-blocking I/O model 非阻塞IO模型 (异步)
+3.lightweight and efficient 轻量与高效
+</code></pre>
+<h3 id="npm介绍"><a href="#npm介绍" class="headerlink" title="npm介绍:"></a>npm介绍:</h3><pre><code>1.npm是世界上最大的使用Node.js开发开源生态系统,
+    在以往开发人员使用Javascript相关的第三方插件或者包,
+    需要手动下载插件代码,引入到我们的JS文件中,
+    而npm平台则集成了绝大多数的JavaScript相关的插件包,
+    这样做的目的是为了使开发人员更加方便快捷的下载和使用,
+    开发人员只需要一句命令就可以使用指定的插件
+    如:npm install jquery
+    [使用jqueryJS插件库]
+</code></pre>
+<h2 id="node-js可以用于开发"><a href="#node-js可以用于开发" class="headerlink" title="node.js可以用于开发"></a>node.js可以用于开发</h2><pre><code>    web服务器后台
+    命令行工具:
+        npm
+        git
+        hexo
+    对于前端开发工程师来讲,接触Node更多的是使用命令行工具
+</code></pre>
+<h2 id="简单的命令行操作"><a href="#简单的命令行操作" class="headerlink" title="简单的命令行操作:"></a>简单的命令行操作:</h2><pre><code>    .cd 返回上级
+    .dir 列出目录
+    .ls 列出目录
+    .mkdir 创建目录
+    .rm 删除目录
+</code></pre>
 <p>参考资源:<br>        1.深入浅出Node.js<br>        2.Node.js权威指南<br>        3.JavaScript标准参考教程:<a target="_blank" rel="noopener" href="http://javascript.ruanyifeng.com/">http://javascript.ruanyifeng.com</a><br>        4.Node入门:<a target="_blank" rel="noopener" href="http://www.nodebeginner.org/index-zh-cn.html">http://www.nodebeginner.org/index-zh-cn.html</a><br>        5.官方API文档:<a target="_blank" rel="noopener" href="http://www.node.jsogr/dist/latest-v6.x/docs/api/">http://www.node.jsogr/dist/latest-v6.x/docs/api/</a><br>        6.中文文档:<a target="_blank" rel="noopener" href="http://www.nodeclass.com/api/node.html">http://www.nodeclass.com/api/node.html</a><br>        7.cnode社区:<a target="_blank" rel="noopener" href="http://cnodejs.org/">http://cnodejs.org</a><br>        8.cnode-新手入门:<a target="_blank" rel="noopener" href="http://cnodejs.org/getstart">http://cnodejs.org/getstart</a></p>
 <p>​		<br>学习目标:<br>        1.B\S编程模型<br>            Browser-Server 浏览器服务器编程模型<br>            back-end	   服务端开发技术<br>            任何服务端技术在对于B\S编程模型上都是一样的,和语言无关<br>        2.模块化编程:<br>            RequireJS<br>            SeaJS<br>            在以往认知的JS只能通过SCRIPT标签来加载执行<br>            在Node中可以像引入CSS文件一样通过引用的方式来加载Javascript脚本文件<br>        3.Node常用API:</p>
 <pre><code>    4.异步编程
@@ -120,8 +152,10 @@
     同时为前端进阶技术如:Vue.js,React,angular 
     等前端高级技术的知识.
 </code></pre>
-<p>​		<br>​		<br>​		<br>​		<br>###安装Node:<br>    下载地址node.js.org&#x2F;en&#x2F;download&#x2F;</p>
-<pre><code>1.安装:
+<p>​		<br>​		<br>​		<br>​		</p>
+<h3 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node:"></a>安装Node:</h3><pre><code>下载地址node.js.org/en/download/
+
+1.安装:
     一直点next就完了
     对于已安装过的,重新安装会覆盖旧版本
 
@@ -131,8 +165,16 @@
 
 3.环境变量:	
 </code></pre>
-<p>​	<br>##使用node执行JS代码<br>    1.创建编写JS脚本文件<br>    2.打开CMD终端,定位到脚本文件所在目录,可以通过CD切换至文件所在目录,或者在文件目录中按住shift+右键,在命令窗口打开.<br>    3.输入node+空格+文件名执行对应的文件<br>    注意:文件名不能使用node.js命名,<br>        且最好不要使用中文作为文件名<br>        在node.js文件中不要使用DOM与BOM等浏览器API操作代码<br>        会导致程序报错,因为在node环境中没有DOM与BOM的概念</p>
-<pre><code>4.解析执行javascript
+<p>​	</p>
+<h2 id="使用node执行JS代码"><a href="#使用node执行JS代码" class="headerlink" title="使用node执行JS代码"></a>使用node执行JS代码</h2><pre><code>1.创建编写JS脚本文件
+2.打开CMD终端,定位到脚本文件所在目录,可以通过CD切换至文件所在目录,或者在文件目录中按住shift+右键,在命令窗口打开.
+3.输入node+空格+文件名执行对应的文件
+注意:文件名不能使用node.js命名,
+    且最好不要使用中文作为文件名
+    在node.js文件中不要使用DOM与BOM等浏览器API操作代码
+    会导致程序报错,因为在node环境中没有DOM与BOM的概念
+
+4.解析执行javascript
 
 5.读写文件
   浏览器解析执行的JS代码无法操作文件
@@ -276,8 +318,12 @@
             console.log(&#39;服务器启动成功&#39;)
         &#125;)
 </code></pre>
-<p>#解决中文乱码setHeader:<br>            res.setHeader(“content-type”,’text&#x2F;plain; charset&#x3D;utf-8’)<br>              这段参数必须按照此格式来写,<br>              参数一<br>              表示指定响应内容的数据类型,</p>
-<pre><code>          参数二
+<h1 id="解决中文乱码setHeader"><a href="#解决中文乱码setHeader" class="headerlink" title="解决中文乱码setHeader:"></a>解决中文乱码setHeader:</h1><pre><code>        res.setHeader(&quot;content-type&quot;,&#39;text/plain; charset=utf-8&#39;)
+          这段参数必须按照此格式来写,
+          参数一
+          表示指定响应内容的数据类型,
+          
+          参数二
           表示类型为文本数据/表示是什么类型的文本
           plain表示普通文本
           html表示html文本,若设置为html文本则,
@@ -299,8 +345,27 @@
           语法如下:
         
 </code></pre>
-<p>​		<br>##Node中的核心模块以及模块概念:<br>#		1.在node中没有全局块级作用域的概念,只有模块作用域<br>#		在node.js中模块分为三种,<br>#		1.具名的核心模块,列如fs,http<br>#	    2.用户自己编写的文集模块<br>            可以理解为,每个单独的需要执行Node的JS文件是一个模块,<br>            每个模块有单独的作用域,也就是说,各个模块中的代码,<br>            在不通过require挂载到另一个模块的情况下,<br>            各个模块间是毫无关联的,所以不管是,<br>            重复的变量名还是函数名都不会发生冲突,<br>            也无法进行跨模块使用,<br>            但是在node.js中提供了一个require方法来加载执行使用外部模块,<br>            但是依然无法使用外部模块的变量,还有函数<br>            简单的模块化:<br>            文件a.js:<br>            var a&#x3D;’hello’;<br>            console.log(‘a’)<br>            文件b.js{<br>            var b&#x3D;’node.js’;<br>            require(“a.js”)	<br>            console.log(‘b’);		<br>            通过require加载外部模块时,参数为指定模块的路径<br>            若是相对路径,则必须加.&#x2F;</p>
-<pre><code>        [若在此处调用文件a.js中的a变量,输出结果则为undefined]
+<p>​		</p>
+<h2 id="Node中的核心模块以及模块概念"><a href="#Node中的核心模块以及模块概念" class="headerlink" title="Node中的核心模块以及模块概念:"></a>Node中的核心模块以及模块概念:</h2><h1 id="1-在node中没有全局块级作用域的概念-只有模块作用域"><a href="#1-在node中没有全局块级作用域的概念-只有模块作用域" class="headerlink" title="1.在node中没有全局块级作用域的概念,只有模块作用域"></a>1.在node中没有全局块级作用域的概念,只有模块作用域</h1><h1 id="在node-js中模块分为三种"><a href="#在node-js中模块分为三种" class="headerlink" title="在node.js中模块分为三种,"></a>在node.js中模块分为三种,</h1><h1 id="1-具名的核心模块-列如fs-http"><a href="#1-具名的核心模块-列如fs-http" class="headerlink" title="1.具名的核心模块,列如fs,http"></a>1.具名的核心模块,列如fs,http</h1><h1 id="2-用户自己编写的文集模块"><a href="#2-用户自己编写的文集模块" class="headerlink" title="2.用户自己编写的文集模块"></a>2.用户自己编写的文集模块</h1><pre><code>        可以理解为,每个单独的需要执行Node的JS文件是一个模块,
+        每个模块有单独的作用域,也就是说,各个模块中的代码,
+        在不通过require挂载到另一个模块的情况下,
+        各个模块间是毫无关联的,所以不管是,
+        重复的变量名还是函数名都不会发生冲突,
+        也无法进行跨模块使用,
+        但是在node.js中提供了一个require方法来加载执行使用外部模块,
+        但是依然无法使用外部模块的变量,还有函数
+        简单的模块化:
+        文件a.js:
+        var a=&#39;hello&#39;;
+        console.log(&#39;a&#39;)
+        文件b.js&#123;
+        var b=&#39;node.js&#39;;
+        require(&quot;a.js&quot;)	
+        console.log(&#39;b&#39;);		
+        通过require加载外部模块时,参数为指定模块的路径
+        若是相对路径,则必须加./
+        
+        [若在此处调用文件a.js中的a变量,输出结果则为undefined]
         
         &#125;
         以上代码,在b.js模块中加载执行了a.js模块,
@@ -384,8 +449,7 @@
         在同一台计算机中,同一个端口号,同一个时间,只能被一个应用程序占有	
 </code></pre>
 <p>​</p>
-<p>###使服务器响应并返回发送html页面以及各类文件方法:</p>
-<pre><code>        res.end(&#39;hello 世界&#39;)
+<h3 id="使服务器响应并返回发送html页面以及各类文件方法"><a href="#使服务器响应并返回发送html页面以及各类文件方法" class="headerlink" title="使服务器响应并返回发送html页面以及各类文件方法:"></a>使服务器响应并返回发送html页面以及各类文件方法:</h3><pre><code>        res.end(&#39;hello 世界&#39;)
         服务器在响应内容中带有中文的时候无法正确解析,
         因为在服务器默认发送的数据,
         其实是utf-8的编码格式,
@@ -408,8 +472,15 @@
     
     
 </code></pre>
-<p>##11.29总结:<br>    node是什么:<br>        1.JavaScript运行环境<br>        2.既不是语言也不是框架,node是一个平台<br>    node.js中的JavaScript:<br>        1.没有BOM,DOM<br>        2.ECMASCript基本的JavaScript语言部分<br>        3.学会node就是学会操作node.js中提供的服务器级别的API</p>
-<pre><code>node中的模块系统
+<h2 id="11-29总结"><a href="#11-29总结" class="headerlink" title="11.29总结:"></a>11.29总结:</h2><pre><code>node是什么:
+    1.JavaScript运行环境
+    2.既不是语言也不是框架,node是一个平台
+node.js中的JavaScript:
+    1.没有BOM,DOM
+    2.ECMASCript基本的JavaScript语言部分
+    3.学会node就是学会操作node.js中提供的服务器级别的API
+
+node中的模块系统
     在node中没有全局作用域的概念
     在node中,只能通过require方法来加载执行多个JavaScript脚本文件
     require加载只能是执行其中的代码,文件与文件之间由于是模块作用域,
@@ -477,8 +548,10 @@ fs.readFile(&#39;文件路径&#39;,function(err,data)&#123;
     
     
 </code></pre>
-<p>##在node中使用模板引擎:<br>        art-template 不仅可以在浏览器使用,也可在服务端使用<br>        模板引擎最早就是诞生在服务端</p>
-<pre><code>    安装: npm install art-template
+<h2 id="在node中使用模板引擎"><a href="#在node中使用模板引擎" class="headerlink" title="在node中使用模板引擎:"></a>在node中使用模板引擎:</h2><pre><code>    art-template 不仅可以在浏览器使用,也可在服务端使用
+    模板引擎最早就是诞生在服务端
+    
+    安装: npm install art-template
     该命令在哪一文件目录下执行,就会把插件包下载安装到该文件目录下,默认会下载到node_modules目录中
     在浏览器中需要引用node_modules/art-template/lib/template-web.js
     使用方法:
@@ -522,7 +595,7 @@ template还可以将字符替换到html页面中,但是需要在html标签中预
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/07/09/node-js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="cl5dttb5t0001sogt7w6pcz9d" data-title="node.js基础学习笔记" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/07/09/node-js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="cl5dtxjlp0000nggt5i3u97ol" data-title="node.js基础学习笔记" class="article-share-link">Share</a>
       
       
       
@@ -560,7 +633,7 @@ template还可以将字符替换到html页面中,但是需要在html标签中预
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/07/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="cl5dttb5x0002sogt0d38hmkz" data-title="我的第一篇博客" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/07/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="cl5dtxjlv0001nggt93ogdw2q" data-title="我的第一篇博客" class="article-share-link">Share</a>
       
       
       
@@ -611,7 +684,7 @@ template还可以将字符替换到html页面中,但是需要在html标签中预
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/07/09/hello-world/" data-id="cl5dttb5o0000sogt8f7302vr" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/07/09/hello-world/" data-id="cl5dtxjm20002nggt9iddd7k1" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
